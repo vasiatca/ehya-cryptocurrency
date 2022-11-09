@@ -2,5 +2,10 @@
 
 @import 'grid.css';
 
-@import 'header.css';
+@import 'header-main.css';
+
+@import 'navigation.css';
+
+@import 'benefit.css';
+
 @import 'footer.css';

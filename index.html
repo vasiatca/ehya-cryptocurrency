@@ -6,85 +6,111 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/hk-groteks" rel="stylesheet">
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="./styles/main.css">
 </head>
 
 <body>
   <div class="page">
-    <div class="col-6">
-      <header class="header-main"></header>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-3">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos corrupti fugiat reprehenderit! Sint sequi
-            esse architecto corrupti modi repellendus, saepe perferendis, incidunt, quasi veritatis dolor minus
-            voluptatibus. Laudantium, animi blanditiis?</p>
-        </div>
-        <div class="col-6">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed delectus deserunt iusto id, eos doloribus enim
-            quia molestias cum ducimus voluptatem, libero magni vero deleniti hic fugit. Omnis, ab officia?</p>
-          <p>Quibusdam, ex quos, necessitatibus, dignissimos dolor consequuntur doloribus veniam iusto quae cupiditate
-            voluptate minima explicabo ullam. Totam voluptate animi fugit deserunt dignissimos, porro alias recusandae
-            ea sit, ut labore dolor?</p>
-          <p>Magni, quidem quisquam quasi alias nisi eaque ipsam quis, fuga obcaecati a laboriosam maxime inventore
-            distinctio dignissimos harum accusantium quibusdam expedita similique totam corporis sint nemo? Temporibus
-            dolore incidunt provident.</p>
-          <p>Vitae fugit suscipit perspiciatis adipisci, temporibus ad ipsa placeat! Quis minima, atque asperiores
-            consequuntur, corporis odio quos recusandae adipisci sint quasi voluptatem placeat praesentium neque!
-            Impedit fugiat eum nemo a.</p>
-          <p>Corporis asperiores officiis aliquid itaque assumenda voluptas, vitae fuga repellat obcaecati ad adipisci
-            similique aperiam repudiandae iure dolore quasi quae quaerat quibusdam culpa veniam delectus qui temporibus
-            nemo iusto. Eaque?</p>
-        </div>
-        <div class="col-3">
-          <p>123</p>
-        </div>
-
-        <div class="col-3">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus perspiciatis enim nesciunt
-            exercitationem nostrum eius suscipit nihil odio non explicabo soluta eveniet assumenda odit, vitae delectus
-            ea nam voluptatum accusantium.</p>
-        </div>
-        <div class="col-3">
-          <p>123</p>
-        </div>
-        <div class="col-6">
-          <div class="row">
-            <div class="col-4">
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut nulla ex odio velit! Laborum nostrum eaque
-                expedita pariatur in velit eveniet odit deleniti quaerat, ipsa repellat a provident, voluptate
-                aspernatur.</p>
-              <p>Rem, sint voluptates doloremque explicabo esse ab fugiat asperiores unde nihil vel voluptatibus
-                voluptas quasi ipsa. Odio, accusantium repellat dignissimos inventore aspernatur totam dolorem beatae
-                sit iure! Similique, vero nesciunt!</p>
+    <header class="header-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <div class="header-main__logo">
+              <img src="./images/Logo.svg" alt="логотип" class="logo" />
             </div>
-            <div class="col-4">
-              <div class="row">
-                <div class="col-6">
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis obcaecati quos molestias veniam,
-                    non, quae expedita provident laborum quia rerum totam adipisci quod! Nulla ratione distinctio quo
-                    sed dignissimos voluptatum.</p>
-                </div>
-                <div class="col-6">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio fugit omnis sed nulla sint in
-                    aliquid? Ut impedit, aut cum architecto esse eius eligendi? Consectetur porro in laudantium eveniet
-                    numquam!</p>
-                </div>
+          </div>
+          <div class="col-10">
+            <div class="navigation">
+              <a href="#" class="navigation__title">Home</a>
+              <div class="navigation__item">
+                <a href="#" class="navigation__title navigation__title_menu">Landings</a>
+                <button class="navigation__btn-menu">
+                  <img src="./images/angle-down.svg" alt="#" />
+                </button>
               </div>
-            </div>
-            <div class="col-4">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, autem deserunt rem minima natus
-                voluptate hic in assumenda eos, quod qui vitae! Aspernatur ad nisi atque aut veniam optio modi!</p>
+
+              <div class="navigation__item">
+                <a href="#" class="navigation__title navigation__title_menu">Pages</a>
+                <button class="navigation__btn-menu">
+                  <img src="./images/angle-down.svg" alt="#" />
+                </button>
+              </div>
+              <a href="#" class="navigation__title">Docs</a>
+              <a href="#" class="navigation__title">Help</a>
+              <button class="navigation__button">Get it now</button>
             </div>
           </div>
         </div>
       </div>
-    </div>
+  </div>
+  </header>
 
-    <footer class="footer-main"></footer>
+  <div class="benefit">
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div class="benefit-block">
+            <img src="./images/Icon1.svg" alt="#" class="benefit-block__icon">
+            <p class="benefit-block__title">Bitcoin without volatility</p>
+            <p class="benefit-block__text">Automatically convert bitcoin to your local currency at the time of
+              transaction and avoid price volatility.</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="benefit-block">
+            <img src="./images/Icon2.svg" alt="#" class="benefit-block__icon">
+            <p class="benefit-block__title">Safety first</p>
+            <p class="benefit-block__text">Know your funds are safe and sound with our cryptographically secure
+              platform
+              and 24hr support.</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="benefit-block">
+            <img src="./images/Icon3.svg" alt="#" class="benefit-block__icon">
+            <p class="benefit-block__title">Upgrade to Lightning</p>
+            <p class="benefit-block__text">Take advantage of bitcoin’s newest payment protocol and experience instant
+              settlements and low fees.</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="benefit-block">
+            <img src="./images/Icon4.svg" alt="#" class="benefit-block__icon">
+            <p class="benefit-block__title">Freedom from chargebacks</p>
+            <p class="benefit-block__text">Never deal with chargebacks or holds again as every payment settles
+              instantly
+              now.</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="benefit-block">
+            <img src="./images/Icon5.svg" alt="#" class="benefit-block__icon">
+            <p class="benefit-block__title">Open to the world</p>
+            <p class="benefit-block__text">No bank account required. Internet access is all you need to start
+              accepting
+              bitcoin anywhere.</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="benefit-block">
+            <img src="./images/Icon6.svg" alt="#" class="benefit-block__icon">
+            <p class="benefit-block__title">Charge less than a penny</p>
+            <p class="benefit-block__text">Monetize any digital interaction using microtransactions and charge as
+              little
+              as 1 satoshi.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer-main"></footer>
   </div>
 </body>
 
