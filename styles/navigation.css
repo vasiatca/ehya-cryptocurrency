@@ -15,7 +15,11 @@
   cursor: pointer;
 }
 
-.navigation__button {
+.navigation__title:last-child {
+  margin: 0;
+}
+
+.navigation__title_btn {
   border: 2px solid #FFFFFF;
   border-radius: 8px;
   background: repeat;
@@ -26,6 +30,10 @@
   /* line-height: 22px; */
   /* text-align: center; */
   color: #FFFFFF;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navigation__item {
