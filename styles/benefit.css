@@ -5,11 +5,12 @@
 }
 
 .benefit-block__icon {
-
+  
 }
 
 .benefit-block__title {
   font-family: 'HK Grotesk', sans-serif;
+  font-style: normal;
   font-weight: 600;
   font-size: 22px;
   line-height: 32px;
