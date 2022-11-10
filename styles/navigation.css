@@ -9,7 +9,7 @@
   font-size: 16px;
   line-height: 22px;
   text-align: center;
-  color: #FFFFFF;
+  color: var(--light);
   margin-right: 40px;
   text-decoration: none;
   cursor: pointer;
@@ -20,7 +20,7 @@
 }
 
 .navigation__title_btn {
-  border: 2px solid #FFFFFF;
+  border: 2px solid var(--light);
   border-radius: 8px;
   background: repeat;
   width: 130px;
@@ -29,7 +29,7 @@
   /* font-size: 16px; */
   /* line-height: 22px; */
   /* text-align: center; */
-  color: #FFFFFF;
+  color: var(--light);
   margin-left: 40px;
   display: flex;
   align-items: center;

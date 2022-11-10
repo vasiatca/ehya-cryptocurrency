@@ -1,5 +1,5 @@
 .header-main {
-  background: #1565D8;
+  background: var(--primary);
   height: 100px;
   display: flex;
   align-items: center;
@@ -9,5 +9,5 @@
   display: flex;
   align-items: center;
   height: 100%;
-  color: #FFFFFF;
+  color: var(--light);
 }

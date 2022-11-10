@@ -1,9 +1,20 @@
+:root {
+  --font-main: 'Open Sans', sans-serif;
+  --font-secondary: 'HK Grotesk', sans-serif;
+  --primary: #1565D8;
+  --grey: #5A7184;
+  --dark: #183B56;
+  --succees: #36B37E;
+  --danger: #E95432;
+  --light: #F7F8F9;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--font-main);
 }
 
 h1,
@@ -12,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'HK Grotesk', sans-serif;
+  font-family: var(--font-secondary);
 }
 
 p {

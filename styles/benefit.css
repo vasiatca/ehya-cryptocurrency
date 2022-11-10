@@ -1,6 +1,6 @@
 .benefit-block {
   padding: 20px 40px;
-  background: #FFFFFF;
+  background: var(--light);
   margin-bottom: 40px;
 }
 
@@ -15,12 +15,12 @@
   font-size: 22px;
   line-height: 32px;
   letter-spacing: 0.2px;
-  color: #183B56;
+  color: var(--dark);
 }
 
 .benefit-block__text {
   font-size: 16px;
   line-height: 28px;
-  color: #5A7184;
+  color: var(--grey);
   margin-top: 8px;
 }
