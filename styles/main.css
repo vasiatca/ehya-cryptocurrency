@@ -1,11 +1,12 @@
 @import 'general.css';
 
+/* Utils */
 @import 'grid.css';
+@import 'page.css';
 
-@import 'header-main.css';
+/* Block */
+@import 'header.css';
+@import 'footer.css';
 
 @import 'navigation.css';
-
 @import 'benefit.css';
-
-@import 'footer.css';

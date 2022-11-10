@@ -1,0 +1,12 @@
+/* Sticky footer */
+.page {
+  /* font-size: 16px; */
+  min-height: 100vh;
+}
+
+.page__content {
+  flex-grow: 1;
+}
+
+/* .page__header {} */
+/* .page__footer{} */
