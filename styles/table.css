@@ -72,10 +72,6 @@ th {
   color: #FFFFFF;
 }
 
-.table__span {
-  color: var(--grey);
-}
-
 .table__icon {
   margin-right: 15px;
   display: flex;
@@ -87,9 +83,17 @@ th {
 }
 
 .table__item {
+  font-weight: 600;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.2px;
   color: #183B56;
+}
 
+.table__item_span {
+  color: var(--grey);
+}
+
+.table__item_succees {
+  color: var(--succees);
 }
