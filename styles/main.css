@@ -3,6 +3,7 @@
 /* Utils */
 @import 'grid.css';
 @import 'page.css';
+@import 'table.css';
 
 /* Block */
 @import 'header.css';
@@ -10,3 +11,4 @@
 
 @import 'navigation.css';
 @import 'benefit.css';
+

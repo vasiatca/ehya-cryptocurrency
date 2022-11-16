@@ -1,6 +1,5 @@
 .footer-main {
   padding: 50px 0 50px 0;
-  /* background: var(--light); */
   color: var(--grey);
 }
 
@@ -20,12 +19,12 @@
   width: 42px;
   height: 40px;
   border-radius: 50%;
-  background: var(--dark);
-  opacity: 0.1;
+  background: #EDEEF0;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-right: 6px;
+  color: var(--dark);
 }
 
 .footer-menu {
@@ -51,4 +50,28 @@
 
 .footer-menu__info:last-child {
   margin-bottom: 0;
+}
+
+.footer-main__bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 96px;
+}
+
+.footer-main__bottom-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #1576D8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-main__copyright {
+  margin-top: 24px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
 }

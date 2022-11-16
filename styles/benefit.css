@@ -1,11 +1,21 @@
+.benefit {
+  margin-bottom: 80px;
+}
+
 .benefit-block {
   padding: 20px 40px;
-  background: var(--light);
   margin-bottom: 40px;
 }
 
 .benefit-block__icon {
-  
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 1px solid #E5EAF4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .benefit-block__title {
@@ -16,6 +26,7 @@
   line-height: 32px;
   letter-spacing: 0.2px;
   color: var(--dark);
+  margin-top: 26px;
 }
 
 .benefit-block__text {
