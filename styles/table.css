@@ -97,3 +97,7 @@ th {
 .table__item_succees {
   color: var(--succees);
 }
+
+.table__item_danger {
+  color: var(--danger);
+}
