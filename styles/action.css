@@ -31,11 +31,12 @@
   height: 55px;
   border-radius: 8px;
   border: none;
-  background: #1565D8;
+  background: var(--primary);
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
   text-align: center;
   color: #FFFFFF;
   padding: 0;
+  cursor: pointer;
 }
