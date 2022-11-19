@@ -1,0 +1,41 @@
+.action {
+  text-align: center;
+  padding: 100px 0;
+
+  /* background: url('../images/map.svg') no-repeat top center;
+	background-size: contain; */
+}
+
+.action h2 {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--dark);
+}
+
+.action p {
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: var(--grey);
+}
+
+.action button {
+  margin-top: 30px;
+  width: 290px;
+  height: 55px;
+  border-radius: 8px;
+  border: none;
+  background: #1565D8;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 0;
+}
