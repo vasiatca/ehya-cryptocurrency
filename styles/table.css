@@ -72,11 +72,6 @@ th {
   color: #FFFFFF;
 }
 
-.table__icon {
-  margin-right: 15px;
-  display: flex;
-}
-
 .table__element {
   display: flex;
   align-items: center;
@@ -88,6 +83,7 @@ th {
   line-height: 20px;
   letter-spacing: 0.2px;
   color: #183B56;
+  margin-left: 15px;
 }
 
 .table__item_span {
