@@ -75,14 +75,14 @@
 	margin-top: 50px;
 }
 
-.header-form__input {
+.header-form input {
 	flex-grow: 1;
 	margin-left: 20px;
 	border: none;
 	outline: none;
 }
 
-.header-form__btn {
+.header-form button {
 	padding: 12px 24px;
   margin: 6px;
 	border: none;
@@ -92,5 +92,4 @@
 	font-size: 16px;
 	line-height: 22px;
 	color: #FFFFFF;
-
 }

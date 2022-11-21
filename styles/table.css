@@ -58,7 +58,7 @@ th {
   height: 70px;
 }
 
-.table__button {
+.table button {
   /* width: 69px; */
   /* height: 36px; */
   padding: 7px 18px;
@@ -83,6 +83,9 @@ th {
   line-height: 20px;
   letter-spacing: 0.2px;
   color: #183B56;
+}
+
+.table__item_name {
   margin-left: 15px;
 }
 
