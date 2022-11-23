@@ -1,4 +1,4 @@
-/* .pairing {
+.pairing {
   margin-bottom: 100px;
 }
 
@@ -9,6 +9,7 @@
   line-height: 36px;
   letter-spacing: 0.2px;
   color: var(--dark);
+  margin-bottom: 70px;
 }
 
 .card {
@@ -22,6 +23,42 @@
   align-items: center;
   border-radius: 16px;
   background: #F7F8F9;
-  margin: 5px 5px 26px 5px;
+  margin: 5px;
   padding: 12px;
-} */
+}
+
+.card__item {
+  display: flex;
+  align-items: center;
+}
+
+.card__item p {
+  margin-left: 10px;
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.16px;
+  color: var(--dark);
+}
+
+.card__rate {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.18px;
+  color: var(--dark);
+  margin: 20px;
+}
+
+.card__rate_span {
+  font-weight: 600;
+  margin: 0 0 0 20px;
+}
+
+.card__element {
+  margin: 0 30px;
+}

@@ -68,7 +68,7 @@ th {
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.2px;
-  color: #183B56;
+  color: var(--dark);
 }
 
 .table__item_name {

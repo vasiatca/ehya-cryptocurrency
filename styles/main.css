@@ -4,6 +4,7 @@
 @import 'grid.css';
 @import 'page.css';
 @import 'table.css';
+@import 'button.css';
 
 /* Block */
 @import 'header.css';
@@ -14,5 +15,4 @@
 @import 'action.css';
 @import 'information.css';
 @import 'pairing.css';
-@import 'button.css';
 
