@@ -81,15 +81,3 @@
 	border: none;
 	outline: none;
 }
-
-.header-form button {
-	padding: 12px 24px;
-  margin: 6px;
-	border: none;
-	border-radius: 4px;
-	background: var(--succees);
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 22px;
-	color: #FFFFFF;
-}

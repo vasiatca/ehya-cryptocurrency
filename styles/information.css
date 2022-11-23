@@ -4,7 +4,7 @@
   text-align: center;
 }
 
-.information h2 {
+.information__title {
   font-family: var(--font-secondary);
   font-style: normal;
   font-weight: 700;
@@ -15,7 +15,7 @@
   color: #FFFFFF;
 }
 
-.information p {
+.information__paragraph {
   font-size: 18px;
   line-height: 32px;
   text-align: center;
