@@ -40,7 +40,7 @@
   margin-bottom: 30px;
 }
 
-.footer-menu a {
+.footer-menu__link {
   text-decoration: none;
   margin-bottom: 24px;
   font-size: 16px;
@@ -48,7 +48,7 @@
   color: var(--dark);
 }
 
-.footer-menu a:last-child {
+.footer-menu__link:last-child {
   margin-bottom: 0;
 }
 

@@ -6,7 +6,7 @@
 	background-size: contain; */
 }
 
-.action h2 {
+.action__title {
   font-family: var(--font-secondary);
   font-weight: 700;
   font-size: 40px;
@@ -16,7 +16,7 @@
   color: var(--dark);
 }
 
-.action p {
+.action__text {
   margin-top: 24px;
   font-weight: 400;
   font-size: 18px;

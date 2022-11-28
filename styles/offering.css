@@ -13,6 +13,14 @@
   align-items: center;
 }
 
+.offering__info {
+  margin-left: 30px;
+}
+
+.offering__element {
+  display: flex;
+}
+
 .offering__heading {
   font-family: var(--font-secondary);
   font-weight: 600;

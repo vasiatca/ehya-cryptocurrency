@@ -1,37 +1,48 @@
-.button {
-  border-radius: 8px;
+.btn {
+  --white: #FFFFFF; 
+  border-radius: 0.5rem;
   border: none;
-	color: #FFFFFF;
+	color: var(--white);
   cursor: pointer;
   text-align: center;
   font-weight: 700;
-	font-size: 16px;
-	line-height: 22px;
+	font-size: 1rem;
+	line-height: 1.375;
   background: repeat;
   padding: 0;
 }
 
-.button_header-form {
-  padding: 12px 24px;
-  margin: 6px;
-	border-radius: 4px;
+.btn-success {
 	background: var(--succees);
 }
 
-.button_table {
-  padding: 7px 18px;
-  background: var(--succees);
-}
-
-.button_action {
-  margin-top: 30px;
-  width: 290px;
-  height: 55px;
+.btn-primary {
   background: var(--primary);
-  font-size: 18px;
-  line-height: 25px;
 }
 
-.button_testimonial {
+.btn-md {
+  padding: 0.75rem 1.5rem;
+}
+
+.btn-sm {
+  padding: 0.5rem 1.125rem;
+}
+
+.btn-lg {
+  padding: 1rem 1.5rem;
+}
+
+.btn_header-form {
+  margin: 6px;
+	border-radius: 0.25rem;
+}
+
+.btn_action {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin-top: 30px;
+}
+
+.btn_testimonial {
   margin-left: 30px;
 }

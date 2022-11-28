@@ -20,9 +20,22 @@
 }
 
 .info__message {
-  margin-bottom: 25px;
+  margin-bottom: 40px;
   padding: 30px;
   background: #ffffff;
+  position: relative;
+  border-radius: 8px;
+}
+
+.info__message::before {
+  content: '';
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-right: 35px solid transparent;
+    border-top: 20px solid #ffffff;
+    top: 97%;
+    left: 0;
 }
 
 .info__message p {
