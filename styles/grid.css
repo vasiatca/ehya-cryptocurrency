@@ -53,6 +53,7 @@
 	padding-left: calc(var(--gutter) / 2);
 	padding-right: calc(var(--gutter) / 2);
 	max-width: 100%;
+	width: 100%;
 }
 
 /* 12 columns */

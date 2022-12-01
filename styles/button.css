@@ -9,7 +9,7 @@
 	font-size: 1rem;
 	line-height: 1.375;
   background: repeat;
-  padding: 0;
+  padding: 0.75rem 1.5rem
 }
 
 .btn-success {
@@ -29,9 +29,16 @@
 }
 
 .btn_header-form {
-  margin: 6px;
-	border-radius: 0.25rem;
-  padding: 0.75rem 1.5rem;
+  width: 100%;
+  margin-top: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .btn_header-form {
+    width: initial !important;
+    margin: 6px;
+    border-radius: 0.25rem;
+  }
 }
 
 .btn_action {

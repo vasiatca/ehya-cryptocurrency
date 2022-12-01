@@ -1,7 +1,13 @@
 .navigation {
-  display: flex;
-  justify-content: end;
-  align-items: center;
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .navigation {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
 }
 
 .navigation__title {
@@ -21,19 +27,6 @@
 
 .navigation__title_btn {
   border: 2px solid var(--light);
-  border-radius: 8px;
-  background: repeat;
-  width: 130px;
-  height: 48px;
-  font-weight: 700;
-  /* font-size: 16px; */
-  /* line-height: 22px; */
-  /* text-align: center; */
-  color: var(--light);
-  margin-left: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .navigation__item {
@@ -50,4 +43,23 @@
 
 .navigation__title_menu {
   margin: 0;
+}
+
+.navigation__menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+@media screen and (min-width: 992px) {
+  .navigation__menu {
+    display: none;
+  }
+}
+
+.navigation__btn {
+  border: none;
+  background: repeat;
+  position: relative;
+  top: 5px;
 }

@@ -9,7 +9,9 @@
   --light: #F7F8F9;
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
