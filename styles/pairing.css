@@ -2,7 +2,7 @@
   margin-bottom: 100px;
 }
 
-.pairing h2 {
+.pairing__title {
   font-family: var(--font-secondary);
   font-weight: 700;
   font-size: 28px;
@@ -10,6 +10,7 @@
   letter-spacing: 0.2px;
   color: var(--dark);
   margin-bottom: 70px;
+  text-align: center;
 }
 
 .card {
@@ -32,7 +33,7 @@
   align-items: center;
 }
 
-.card__item p {
+.card__money {
   margin-left: 10px;
   font-family: var(--font-secondary);
   font-style: normal;
@@ -60,5 +61,11 @@
 }
 
 .card__element {
-  margin: 0 30px;
+  margin: 0 16px;
+}
+
+@media screen and (min-width: 992px) {
+  .card__element {
+    margin: 0 30px;
+  }
 }

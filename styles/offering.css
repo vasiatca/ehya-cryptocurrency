@@ -13,14 +13,6 @@
   align-items: center;
 }
 
-.offering__info {
-  margin-left: 30px;
-}
-
-.offering__element {
-  display: flex;
-}
-
 .offering__heading {
   font-family: var(--font-secondary);
   font-weight: 600;
@@ -39,29 +31,101 @@
 }
 
 .offering__title-block {
+  padding-bottom: 36px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .offering__title-block {
+    padding-bottom: 56px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .offering__title-block {
+    text-align: start;
   padding-bottom: 90px;
+  }
 }
 
 .offering__title {
   font-family: var(--font-secondary);
   font-weight: 700;
-  font-size: 36px;
-  line-height: 48px;
+  font-size: 24px;
+  line-height: 32px;
   letter-spacing: 0.2px;
   color: var(--dark);
 }
 
-.offering__info {
+@media screen and (min-width: 768px) {
+  .offering__title {
+    font-family: var(--font-secondary);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.2px;
+    color: var(--dark);
+  }
+}
+
+.offering__subtitle {
   font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 28px;
   color: var(--grey);
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .offering__subtitle {
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 42px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .offering__subtitle {
+    margin: 0;
+  }
+}
+
+.offering__info-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .offering__info-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .offering__element {
+  display: flex;
   margin-bottom: 45px;
+  width: 100%;
 }
 
 .offering__element:last-child {
   margin: 0;
+}
+
+.offering__info {
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .offering__info {
+    margin-left: 30px;
+  }
+}
+
+.offering__img {
+  /* background: url('../images/Graph.svg') no-repeat top center; */
+  /* background-size: contain; */
+  width: 100%;
 }
