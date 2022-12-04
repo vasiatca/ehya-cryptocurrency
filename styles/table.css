@@ -55,7 +55,19 @@ th {
 }
 
 .table.table_fixed > :not(caption) > * > * {
-  height: 70px;
+  height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .table.table_fixed > :not(caption) > * > * {
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .table.table_fixed > :not(caption) > * > * {
+    height: 70px;
+  }
 }
 
 .table__element {

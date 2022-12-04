@@ -1,5 +1,5 @@
 .offering {
-  /* padding: 100px 0; */
+ padding: 100px 0 80px;
 }
 
 .offering__icon {
@@ -110,9 +110,9 @@
   width: 100%;
 }
 
-.offering__element:last-child {
+/* .offering__element:last-child {
   margin: 0;
-}
+} */
 
 .offering__info {
   margin-left: 20px;
@@ -125,7 +125,5 @@
 }
 
 .offering__img {
-  /* background: url('../images/Graph.svg') no-repeat top center; */
-  /* background-size: contain; */
   width: 100%;
 }
