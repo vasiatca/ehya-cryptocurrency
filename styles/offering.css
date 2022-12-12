@@ -1,5 +1,17 @@
 .offering {
- padding: 100px 0 80px;
+ padding: 50px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .offering {
+    padding: 80px 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .offering {
+    padding: 100px 0 80px;
+  }
 }
 
 .offering__icon {
@@ -16,10 +28,17 @@
 .offering__heading {
   font-family: var(--font-secondary);
   font-weight: 600;
-  font-size: 22px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 20px;
   letter-spacing: 0.2px;
   color: var(--dark);
+}
+
+@media screen and (min-width: 768px) {
+  .offering__heading {
+    font-size: 22px;
+    line-height: 32px;
+  }
 }
 
 .offering__text {
@@ -109,10 +128,6 @@
   margin-bottom: 45px;
   width: 100%;
 }
-
-/* .offering__element:last-child {
-  margin: 0;
-} */
 
 .offering__info {
   margin-left: 20px;

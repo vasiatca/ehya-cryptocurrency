@@ -1,7 +1,13 @@
 .information {
   background: var(--primary);
-  padding: 80px 0;
+  padding: 50px 0;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .information {
+    padding: 80px;
+  }
 }
 
 .information__title {
