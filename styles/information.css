@@ -10,7 +10,7 @@
   }
 }
 
-.information__title {
+.information-item__title {
   font-family: var(--font-secondary);
   font-weight: 700;
   font-size: 28px;
@@ -21,20 +21,20 @@
 }
 
 @media screen and (min-width: 768px) {
-  .information__title {
+  .information-item__title {
     font-size: 36px;
     line-height: 48px;
   }
 }
 
 @media screen and (min-width: 992px) {
-  .information__title {
+  .information-item__title {
     font-size: 48px;
     line-height: 60px;
   }
 }
 
-.information__paragraph {
+.information-item__paragraph {
   font-size: 14px;
   line-height: 24px;
   text-align: center;
@@ -42,25 +42,25 @@
 }
 
 @media screen and (min-width: 768px) {
-  .information__paragraph {
+  .information-item__paragraph {
     font-size: 16px;
     line-height: 28px;
   }
 }
 
 @media screen and (min-width: 992px) {
-  .information__paragraph {
+  .information-item__paragraph {
     font-size: 18px;
     line-height: 32px;
   }
 }
 
-.information__item {
+.information-item {
   padding-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
-  .information__item {
+  .information-item {
     padding: 0;
   }
 }
