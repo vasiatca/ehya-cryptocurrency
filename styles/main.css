@@ -6,6 +6,7 @@
 @import 'table.css';
 @import 'button.css';
 @import 'order.css';
+@import 'display.css';
 
 /* Block */
 @import 'header.css';
@@ -18,4 +19,3 @@
 @import 'pairing.css';
 @import 'offering.css';
 @import 'testimonial.css';
-
