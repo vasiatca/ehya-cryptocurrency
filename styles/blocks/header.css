@@ -1,6 +1,11 @@
-
 :root {
-	--header-main: 100px;
+	--header-main: 64px;
+}
+
+@media screen and (min-width: 992px) {
+	:root {
+		--header-main: 100px;
+	}
 }
 
 .header-main {
@@ -32,7 +37,7 @@
 .header-hero {
 	background: var(--primary) url('../images/map.svg') no-repeat top center;
 	background-size: contain;
-	padding: 80px 0 60px;
+	padding: 36px 0 25px;
 }
 
 
@@ -42,7 +47,11 @@
 }
 
 .header-hero__content > *:not(:last-child) {
-	margin-bottom: 24px;
+	margin-bottom: 18px;
+}
+
+.header-hero__form {
+	margin-top: 24px;
 }
 
 .header-hero__title {
@@ -51,6 +60,18 @@
 }
 
 @media screen and (min-width: 768px) {
+	.header-hero {
+		padding: 48px 0 58px;
+	}
+
+	.header-hero__content > *:not(:last-child) {
+		margin-bottom: 24px;
+	}
+
+	.header-hero__form {
+		margin-top: 50px;
+	}
+
 	.header-hero__title {
 		font-size: 40px;
 		line-height: 52px;
@@ -58,6 +79,10 @@
 }
 
 @media screen and (min-width: 992px) {
+	.header-hero {
+		padding: 80px 0 60px;
+	}
+
 	.header-hero__title {
 		font-size: 48px;
 		line-height: 60px;
@@ -103,9 +128,8 @@
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	background: repeat;
 	border-radius: 8px;
-	margin-top: 50px;
+	/* margin-top: 50px; */
 }
 
 @media screen and (min-width: 768px) {

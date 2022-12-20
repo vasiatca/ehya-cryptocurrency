@@ -1,66 +1,66 @@
 .information {
   background: var(--primary);
-  padding: 50px 0;
+  padding: 36px 0;
   text-align: center;
 }
 
 @media screen and (min-width: 768px) {
   .information {
-    padding: 80px;
+    padding: 80px 0;
   }
 }
 
-.information__title {
+.information-item__title {
   font-family: var(--font-secondary);
   font-weight: 700;
   font-size: 28px;
   line-height: 36px;
   text-align: center;
   letter-spacing: 0.2px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 @media screen and (min-width: 768px) {
-  .information__title {
+  .information-item__title {
     font-size: 36px;
     line-height: 48px;
   }
 }
 
 @media screen and (min-width: 992px) {
-  .information__title {
+  .information-item__title {
     font-size: 48px;
     line-height: 60px;
   }
 }
 
-.information__paragraph {
+.information-item__paragraph {
   font-size: 14px;
   line-height: 24px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 @media screen and (min-width: 768px) {
-  .information__paragraph {
+  .information-item__paragraph {
     font-size: 16px;
     line-height: 28px;
   }
 }
 
 @media screen and (min-width: 992px) {
-  .information__paragraph {
+  .information-item__paragraph {
     font-size: 18px;
     line-height: 32px;
   }
 }
 
-.information__item {
+.information-item {
   padding-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
-  .information__item {
+  .information-item {
     padding: 0;
   }
 }

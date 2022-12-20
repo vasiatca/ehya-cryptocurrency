@@ -1,21 +1,23 @@
 @import 'general.css';
 
 /* Utils */
-@import 'grid.css';
-@import 'page.css';
-@import 'table.css';
-@import 'button.css';
-@import 'order.css';
+@import './utils/grid.css';
+@import './utils/page.css';
+@import './utils/table.css';
+@import './utils/button.css';
+@import './utils/order.css';
+@import './utils/custom-form.css';
+@import './utils/display.css';
 
 /* Block */
-@import 'header.css';
-@import 'footer.css';
+@import './blocks/header.css';
+@import './blocks/footer.css';
 
-@import 'navigation.css';
-@import 'benefit.css';
-@import 'action.css';
-@import 'information.css';
-@import 'pairing.css';
-@import 'offering.css';
-@import 'testimonial.css';
+@import './blocks/navigation.css';
+@import './blocks/benefit.css';
+@import './blocks/action.css';
+@import './blocks/information.css';
+@import './blocks/pairing.css';
+@import './blocks/offering.css';
+@import './blocks/testimonial.css';
 

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/hk-groteks" rel="stylesheet">
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+  <div class="page">
+    <div class="page__header header-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-10"></div>
+        </div>
+      </div>
+    </div>
+    <div class="page__content">
+
+      <div class="container">
+        <form action="#" class="custom-form" id="offer">
+          <div>
+            <label for="name">First name</label>
+            <input type="text" name="name" />
+          </div>
+          <div class="custom-control">
+            <input type="checkbox" id="agreement" name="agreement-rules" class="custom-control__input" />
+            <label for="agreement" class="custom-control__label">Я согласен Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. Nesciunt omnis veritatis dolores aut consectetur labore! Optio necessitatibus voluptatum
+              similique accusantium iste neque quidem voluptatibus, atque inventore cupiditate fuga itaque
+              minus.</label>
+          </div>
+          <div class="custom-control">
+            <input type="checkbox" id="agreement1" name="agreement-news" class="custom-control__input" checked />
+            <label for="agreement1" class="custom-control__label">Secondary</label>
+          </div>
+
+          <div class="custom-control">
+            <input type="radio" id="paypal" name="payment" value="paypal" class="custom-control__input" />
+            <label for="paypal" class="custom-control__label">PayPal</label>
+          </div>
+
+          <div class="custom-control">
+            <input type="radio" id="credit" name="payment" value="credit" checked class="custom-control__input" />
+            <label for="credit" class="custom-control__label">Credit Card</label>
+          </div>
+
+          <div class="custom-control">
+            <input type="radio" id="cash" name="payment" value="cash" class="custom-control__input" />
+            <label for="cash" class="custom-control__label">Cash</label>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="page__footer footer-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">logo</div>
+          <div class="col-9">
+            <div class="row">
+              <div class="col-3">menu</div>
+              <div class="col-3">menu</div>
+              <div class="col-3">menu</div>
+              <div class="col-3">menu</div>
+              <div class="col-3">menu</div>
+              <div class="col-3">menu</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./scripts/form.js"></script>
+</body>
+
+</html>
