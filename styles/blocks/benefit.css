@@ -20,14 +20,21 @@
 }
 
 .benefit-block__icon {
-  width: 64px;
-  height: 64px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   background: #ffffff;
 	border: 1px solid #e5eaf4;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (min-width: 992px) {
+  .benefit-block__icon {
+    width: 64px;
+    height: 64px;
+  }
 }
 
 .benefit-block__title {
