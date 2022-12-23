@@ -9,6 +9,17 @@
 }
 
 .header-main {
+  height: var(--header-main);
+  background: var(--primary);
+}
+
+.header-main__container {
+  width: 100%;
+  height: var(--header-main);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
   background: var(--primary);
   height: var(--header-main);
   display: flex;
