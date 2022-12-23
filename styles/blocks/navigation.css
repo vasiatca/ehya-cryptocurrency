@@ -54,4 +54,12 @@
   .navigation__button {
     margin-top: 40px;
   }
+
+  [data-open-menu='true'] .navigation {
+    display: block !important;
+  }
+
+  [data-open-menu='false'] .navigation {
+    display: none !important;
+  }
 }

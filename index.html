@@ -27,10 +27,21 @@
               </div>
             </div>
             <div class="col-6 col-lg-10">
-              <div class="header-main__menu">
-                <div class="navigation d-none d-lg-block">
+              <div class="header-main__menu" data-open-menu="true">
+                <div id="navigation" class="navigation d-none d-lg-block">
                   <div class="container">
                     <div class="navigation__items">
+                      <a href="#" class="navigation__title">Home</a>
+                      <a href="#" class="navigation__title">Landings</a>
+                      <a href="#" class="navigation__title">Pages</a>
+                      <a href="#" class="navigation__title">Docs</a>
+                      <a href="#" class="navigation__title">Help</a>
+
+                      <a href="#" class="navigation__title">Home</a>
+                      <a href="#" class="navigation__title">Landings</a>
+                      <a href="#" class="navigation__title">Pages</a>
+                      <a href="#" class="navigation__title">Docs</a>
+                      <a href="#" class="navigation__title">Help</a>
                       <a href="#" class="navigation__title">Home</a>
                       <a href="#" class="navigation__title">Landings</a>
                       <a href="#" class="navigation__title">Pages</a>
@@ -40,11 +51,20 @@
                     </div>
                   </div>
                 </div>
-                <button class="btn btn-icon d-lg-none">
-                  <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <button id="navigation-button" class="btn btn-icon d-lg-none">
+                  <svg width="22" height="18" id="burger" viewBox="0 0 22 18" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                       d="M1.09009 2.2H20.9099C21.5119 2.2 22 1.70751 22 1.1C22 0.492487 21.5119 0 20.9099 0H1.09009C0.48805 0 0 0.492487 0 1.1C0 1.70751 0.48805 2.2 1.09009 2.2ZM1.09009 9.94836H20.9099C21.5119 9.94836 22 9.45588 22 8.84836C22 8.24085 21.5119 7.74836 20.9099 7.74836H1.09009C0.48805 7.74836 0 8.24085 0 8.84836C0 9.45588 0.48805 9.94836 1.09009 9.94836ZM20.9099 17.6967H1.09009C0.48805 17.6967 0 17.2042 0 16.5967C0 15.9892 0.48805 15.4967 1.09009 15.4967H20.9099C21.5119 15.4967 22 15.9892 22 16.5967C22 17.2042 21.5119 17.6967 20.9099 17.6967Z"
                       fill="currentColor" />
+                  </svg>
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" id="close" class="d-none"
+                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
                   </svg>
                 </button>
               </div>
@@ -1114,6 +1134,8 @@
     </footer>
 
   </div>
+
+  <script src="./scripts/index.js"></script>
 </body>
 
 </html>
