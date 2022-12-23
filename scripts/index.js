@@ -1,3 +1,11 @@
+function bodyDisableScroll(active) {
+	if (active) {
+		document.body.classList.add('scroll-disable')
+	} else {
+		document.body.classList.remove('scroll-disable')
+	}
+}
+
 function toggleMenu() {
 	//
 	// 2
@@ -8,8 +16,10 @@ function toggleMenu() {
 
 	if (menu.dataset.openMenu === 'true') {
 		menu.dataset.openMenu = 'false'
+		bodyDisableScroll(false)
 	} else {
 		menu.dataset.openMenu = 'true'
+		bodyDisableScroll(true)
 	}
 
 	//
