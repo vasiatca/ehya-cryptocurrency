@@ -1,6 +1,6 @@
 .navigation {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -29,31 +29,6 @@
   margin-right: 40px;
 }
 
-.navigation__btn-menu {
-  border: none;
-  background: repeat;
-  padding: 0 0 0 4px;
-}
-
 .navigation__title_menu {
   margin: 0;
-}
-
-.navigation__menu {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-@media screen and (min-width: 992px) {
-  .navigation__menu {
-    display: none;
-  }
-}
-
-.navigation__btn {
-  border: none;
-  background: repeat;
-  position: relative;
-  top: 5px;
 }
