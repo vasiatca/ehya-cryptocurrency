@@ -7,6 +7,7 @@
   font-weight: 700;
   font-size: 1rem;
   line-height: 1.375;
+  text-decoration: none;
   background: transparent;
   padding: 0 1.5rem;
   display: inline-flex;
@@ -23,6 +24,10 @@
   background: var(--primary);
 }
 
+.btn-outline {
+  border: 2px solid var(--light);
+}
+
 .btn-lg {
   padding: 1rem 1.5rem;
 }
@@ -35,6 +40,11 @@
 .btn_header-form {
   width: 100%;
   margin-top: 14px;
+}
+
+.btn-icon {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 @media screen and (min-width: 768px) {
