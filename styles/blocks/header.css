@@ -185,3 +185,19 @@
 		text-align: left;
 	}
 }
+
+[data-open-menu='true'] #burger {
+  display: none !important;
+}
+
+[data-open-menu='false'] #burger {
+  display: block !important;
+}
+
+[data-open-menu='true'] #close {
+  display: block !important;
+}
+
+[data-open-menu='false'] #close {
+  display: none !important;
+}
