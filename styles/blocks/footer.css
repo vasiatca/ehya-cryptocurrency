@@ -10,7 +10,7 @@
 }
 
 .footer-main__text {
-  margin-top: 28px;
+  margin-top: 16px;
   font-size: 16px;
   line-height: 28px;
   color: var(--grey);
@@ -20,17 +20,19 @@
 @media screen and (min-width: 768px) {
   .footer-main__text {
     text-align: left;
+    margin-top: 28px;
   }
 }
 
 .footer-main__icons {
-  margin-top: 32px;
+  margin-top: 16px;
   display: flex;
 }
 
 @media screen and (min-width: 768px) {
   .footer-main__icons {
     width: 100%;
+    margin-top: 32px;
   }
 }
 
